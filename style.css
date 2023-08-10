@@ -312,6 +312,7 @@ span .developer {
 
   /* home */
   #name p {
+    margin-top: 300px;
     font-family: "Poppins", sans-serif;
     font-size: 30px;
     font-weight: bold;
