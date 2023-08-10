@@ -351,6 +351,11 @@ span .developer {
     margin-left: 25px;
   }
 
+  #textabout h2 {
+    margin-left: -15px;
+    text-transform: uppercase;
+  }
+
   #con-about span {
     display: none;
   }
