@@ -1,0 +1,409 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  margin-top: 70px;
+}
+
+#name {
+  margin-left: 50px;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease;
+}
+
+#navbar ul li a:hover {
+  color: #ffc107;
+}
+
+.col p {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#typing-text {
+  margin-top: -20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+span .developer {
+  font-family: "Poppins", sans-serif;
+}
+
+.col span {
+  font-family: monospace;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#button {
+  margin-top: 60px;
+}
+
+#svg {
+  margin-top: -200px;
+}
+
+#textabout {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.kotak {
+  width: 100%;
+  max-width: 1100px;
+  height: 400px;
+  background-color: rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(1);
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+#con-about {
+  margin-top: 150px;
+}
+
+#me {
+  width: 300px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+#about-me {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-left: 380px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
+
+#card {
+  margin-left: 60px;
+}
+
+.project {
+  margin-top: 150px;
+}
+
+#project {
+  border-radius: 15px;
+}
+
+#submit {
+  margin-top: 10px;
+}
+
+.contact {
+  margin-top: 130px;
+  margin-left: 50px;
+}
+
+#project {
+  filter: grayscale(100%);
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+
+#project:hover {
+  transform: scale(1.05);
+  transform: translateY(-10px);
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+#quote {
+  font-size: 20px;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+
+#contact {
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+#submit {
+  display: block;
+  margin: 20px auto;
+}
+
+.footer-basic {
+  padding: 40px;
+  background-image: url(images/footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.social {
+  margin-top: 200px;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 100%;
+  max-width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1.5px solid #000000;
+  margin: 0 8px;
+  color: inherit;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.4;
+}
+
+.footer-basic .copyright {
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #000000;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media screen and (max-width: 844px) {
+  /* Home */
+  body {
+    overflow-x: hidden;
+  }
+
+  .col p {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #typing-text {
+    margin-top: -20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #button {
+    margin-top: 40px;
+  }
+
+  /* About me */
+  .kotak {
+    width: 100%;
+    max-width: 700px;
+    height: 500px;
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(1);
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #me {
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 70px;
+  }
+
+  #about-me {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 320px;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* project */
+  #project {
+    filter: grayscale(0);
+    transition: 0.5s ease;
+    overflow: hidden;
+  }
+
+  .container .mt-2 {
+    margin-left: 65px;
+  }
+
+  /* contact */
+  #quote {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 450px;
+    left: 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .kotak {
+    margin-left: 25px;
+  }
+
+  #quote {
+    margin-left: 30px;
+    margin-top: 520px;
+  }
+
+  .footer-basic {
+    background-image: none;
+    margin-left: 40px;
+  }
+
+  .social {
+    color: #ffc107;
+  }
+
+  .footer-basic .social > a {
+    border: 1.5px solid #ffc107;
+  }
+
+  .footer-basic .copyright {
+    font-family: "Poppins", sans-serif;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #ffc107;
+  }
+}
+
+/* Handphone */
+@media screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  /* home */
+  #name p {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  #name p span {
+    font-family: monospace;
+    font-size: 20px;
+  }
+
+  #button {
+    display: none;
+  }
+
+  #people {
+    display: none;
+  }
+
+  #typing-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+  }
+
+  /* about me */
+  .kotak {
+    width: 100%;
+    max-width: 700px;
+    height: 600px;
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(1);
+    border-radius: 20px;
+    display: block;
+    margin-left: 25px;
+  }
+
+  #con-about span {
+    display: none;
+  }
+
+  #me {
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 20px;
+  }
+
+  #about-me {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 350px;
+    margin-left: 15px;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* project */
+  .project {
+    margin-top: 100px;
+  }
+
+  #textproject {
+    margin-left: 50px;
+  }
+
+  /* contact */
+  #quote {
+    margin-left: -20px;
+    margin-top: 520px;
+  }
+
+  /* footer */
+  .footer-basic {
+    background-image: none;
+    margin-left: 40px;
+  }
+
+  .social {
+    color: #ffc107;
+  }
+
+  .footer-basic .social > a {
+    border: 1.5px solid #ffc107;
+  }
+
+  .footer-basic .copyright {
+    font-family: "Poppins", sans-serif;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #ffc107;
+  }
+}
